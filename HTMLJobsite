@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8"/>
+  		<title>
+  			Find a Job!
+  		</title>
+	</head>
+	<body>
+		<header>
+			<img src="images/monster.jpg" alt="Find a Job"/>
+			<menu>
+				<a href="http://www.google.com">For Job Seekers</a> 
+				<a href="http://www.google.com">For Employers</a> 
+				<a href="http://www.google.com">About Us</a> 
+				<a href="http://www.google.com">Sign In</a> 
+			</menu>
+		</header>
+		<section>
+			<h1>For Job Seekers/ Career Center</h1>
+			<article>
+				<h2>[Featured Article]</h2>
+				<img src="images/business.jpg" alt="Business"/>
+				<p>
+					Nam vehicula elit sed dui tempor vehicula. Quisque vulputate sed sapien id sagittis. Vestibulum scelerisque, ipsum at venenatis volutpat, tellus justo mattis ante, placerat viverra justo nisl non quam. Nullam vulputate urna mattis purus ullamcorper, vitae auctor mauris molestie. Nunc a velit ut justo accumsan vulputate. Mauris dictum ullamcorper odio eget scelerisque. Ut venenatis elit ultricies, commodo elit ut, cursus lorem. Cras ac enim erat. Phasellus non lorem justo. Donec convallis et nunc eget pretium. Suspendisse in dignissim turpis. In vitae sapien placerat, dictum justo in, condimentum tellus. In hac habitasse platea dictumst. Quisque dictum id dolor nec suscipit.
+					<a href="http://www.google.com">Read the complete article</a> 
+				</p>
+			</article>
+			<article>
+				<h2>[Featured Article]</h2>
+				<p>
+					Nam vehicula elit sed dui tempor vehicula. Quisque vulputate sed sapien id sagittis. Vestibulum scelerisque, ipsum at venenatis volutpat, tellus justo mattis ante, placerat viverra justo nisl non quam. Nullam vulputate urna mattis purus ullamcorper, vitae auctor mauris molestie. Nunc a velit ut justo accumsan 
+					<a href="http://www.google.com">Read the complete article</a> 
+				</p>
+			</article>
+			<article>
+				<h2>[Featured Article]</h2>
+				<p>
+					Nam vehicula elit sed dui tempor vehicula. Quisque vulputate sed sapien id sagittis. Vestibulum scelerisque, ipsum at venenatis volutpat, tellus justo mattis ante, placerat viverra justo nisl non quam. Nullam vulputate urna mattis purus ullamcorper, vitae auctor mauris molestie. Nunc a velit ut justo accumsan 
+					<a href="http://www.google.com">Read the complete article</a> 
+				</p>
+			</article>
+			<article>
+				<h2>[Featured Article]</h2>
+				<p>
+					Nam vehicula elit sed dui tempor vehicula. Quisque vulputate sed sapien id sagittis. Vestibulum scelerisque, ipsum at venenatis volutpat, tellus justo mattis ante, placerat viverra justo nisl non quam. Nullam vulputate urna mattis purus ullamcorper, vitae auctor mauris molestie. Nunc a velit ut justo accumsan 
+					<a href="http://www.google.com">Read the complete article</a> 
+				</p>
+			</article>
+
+			<aside>
+				<strong>A</strong>ccess
+				<strong>C</strong>ompetency
+				<strong>E</strong>valuation
+				<strong>S</strong>ystem
+				<h3>Enter some text</h3>
+				<textarea>Enter training information here</textarea>
+				<img src="images/question.jpg" alt="Help"/>
+			</aside>
+			<aside>
+				<h2>Job Search</h2>
+				<p>m at venenatis volutpat, tellus justo mattis ante, placerat viverra justo nisl non quam. Nullam vulputate urna mattis purus </p>
+				<textarea>keywords</textarea>
+				<select>
+					<option>Jan</option>
+					<option selected="selected">All industries</option>
+					<option>Mar</option>
+					<option>Apr</option>
+					<option>May</option>
+					<option>Jun</option>
+				</select>
+				<input type="button" value="Search" />
+				View all jobs on the <a href="google.com">Access Job Board</a>
+			</aside>
+			<aside>
+				<h2>May Newsletter</h2>
+				<p>
+				Aittis. Vestibulum scelerisque, ipsum at venenatis volutpat, tellus justo mattis ante, placerat viverra justo nisl non quam. Nullam vulputate urna mattis purus ullamcorper, vitae auctor mauris molestie. Nunc a velit ut justo accumsan 
+				</p>
+				<img src="images/news.jpg" alt="News"/>
+				<p>
+				Aittis. Vestibulum scelerisque, ipsum at venenatis volutpat, tellus justo mattis ante, placerat viverra justo nisl non quam. Nullam vulputate urna mattis purus ullamcorper, vitae auctor mauris molestie. Nunc a velit ut justo accumsan 
+				</p>
+				<a href="google.com">Read past newsletters here</a>
+			</aside>
+		</section>
+		<footer>
+			<nav>
+			<a href="http://www.google.com"> Copyright Notice </a> 
+			|
+			<a href="http://www.google.com"> Contact Notice </a> 
+			|
+			<a href="http://www.google.com"> Terms and Conditions </a> 
+			</nav>
+		</footer>
+	</body>
+</html>
