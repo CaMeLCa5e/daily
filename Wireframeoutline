@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+	  	<meta charset="utf-8"/>
+  		<title>
+  			Site name 
+  		</title>
+  	</head>
+	<body>
+		<header>
+			<img src="images/logo.jpg" alt="HTML5 logo" width="304" height="228"/>
+			<h1>Learning HTML5</h1>
+			<address>1 Time Square, NY, New York 10001</address>
+			<img src="images/facebook.jpg" alt="Connect on Facebook!"/>
+			<a href="http://www.google.com"> Log in</a> 
+		</header>
+		<br/>
+		<section>
+			<img src="images/superman.jpg" alt="Superman is here to teach you HTML"/>
+			<p>
+				Nam vehicula elit sed dui tempor vehicula. Quisque vulputate sed sapien id sagittis. Vestibulum scelerisque, ipsum at venenatis volutpat, tellus justo mattis ante, placerat viverra justo nisl non quam. Nullam vulputate urna mattis purus ullamcorper, vitae auctor mauris molestie. Nunc a velit ut justo accumsan vulputate. Mauris dictum ullamcorper odio eget scelerisque. Ut venenatis elit ultricies, commodo elit ut, cursus lorem. Cras ac enim erat. Phasellus non lorem justo. Donec convallis et nunc eget pretium. Suspendisse in dignissim turpis. In vitae sapien placerat, dictum justo in, condimentum tellus. In hac habitasse platea dictumst. Quisque dictum id dolor nec suscipit.
+			</p>
+			<h2>Services we offer</h2>
+			<ol>
+				<li>Bacon ipsum</li>
+				<li>dolor amet duis pariatur est</li>
+				<li>mollit incididunt jowl pork chop</li>
+			</ol>
+			<video controls="controls">
+				<source src="video/wilderness.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<h2>Please select a month</h2>
+			<select>
+				<option>Jan</option>
+				<option selected="selected">Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>July</option>
+				<option>Aug</option>
+				<option>Sept</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+			</select>
+			<img src="images/cal.jpg" alt="Calander"/>
+		</section>
+		<footer>
+			<nav>
+			<a href="http://www.google.com"> Copyright Notice </a> 
+			|
+			<a href="http://www.google.com"> Contact Notice </a> 
+			|
+			<a href="http://www.google.com"> Terms and Conditions </a> 
+			</nav>
+			<img src="images/greenamerica.jpg" alt="Green America Certified"/>
+			<img src="images/greenamerica.jpg" alt="Green America Certified"/>
+			<img src="images/greenamerica.jpg" alt="Green America Certified"/>
+			<img src="images/greenamerica.jpg" alt="Green America Certified"/>
+		</footer>
+	</body>
+</html>
