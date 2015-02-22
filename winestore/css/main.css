@@ -1,0 +1,46 @@
+div#container {
+	width: 960px;
+	/* set equal left and right margins */
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 5px 2px 5px #777777;
+	/*border: 2px solid green;*/
+}
+div.clear {
+	clear: both;
+	background-color: red;
+}
+header, footer {
+	background: -webkit-linear-gradient(pink, lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(pink, lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(pink, lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(pink, lightblue); /* Standard syntax */
+	padding: 20px;
+	padding-left: 20px;
+/*	float: left; */
+}
+
+section {
+	float: left;
+	width: 320px;
+}
+
+h2#todays{
+	float: left;
+	width: 140px;
+}
+
+div#browse {
+	float: left;
+	width: 140px;
+	padding: 20px;
+}
+
+aside {
+	padding: 20px;
+	margin: 20px;
+	float: left;
+	width: 320px;
+}
