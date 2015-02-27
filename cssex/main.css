@@ -1,0 +1,31 @@
+
+
+
+p {
+	float: left;
+}
+
+img {
+	float: right;
+	margin: 10px;
+}
+
+header { 
+
+	border-width: 100px;
+	border-style: solid;
+	background-color: solid#666;
+}
+
+.example {
+    clear: both;
+}
+
+.ul {
+	float: left;
+}
+
+
+
+
+
