@@ -1,0 +1,74 @@
+div.container {
+	border: 1px solid black;
+	width: 644px;
+	height: 780px;
+	font-weight:bold;
+    font-family:arial;
+/*	background-image: url(../screenshot.png);
+*/}
+
+div.clear {
+	clear: both;
+}
+
+header {
+	height: 19px;
+}
+
+ul#navhat {
+    font-size: 8;
+    float: left;
+    margin: 4px;
+
+}
+
+ul#navhat li {
+	display: inline;
+
+}
+ ul#social {
+ 	float: right;
+ 	margin: 0;
+}
+
+ ul#social li {
+ 	display: inline;
+}
+
+section.hero {
+	height: 168px;
+}
+
+section.left {
+	width: 90px;
+	height: 700px;
+	float: left;
+	font-size: 12;
+	text-align: right;
+	margin: 5
+}
+
+section.middle {
+	width: 323px;
+	height: 700px;
+	float: left;
+	font-size: 13;
+	margin: 5px;
+
+	
+}
+
+section.middle ol {
+	float: left;
+	position: fixed;
+	width: 323px;
+}
+
+section.right {
+	width: 200px;
+	height: 700px;
+	float: left;
+	font-size: 13;
+	margin: 5
+}
+
