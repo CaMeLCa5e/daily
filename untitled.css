@@ -1,0 +1,9 @@
+div#container {
+	width: 1023px;
+/*	font-family: helvetica;
+*/	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #772953;
+}
