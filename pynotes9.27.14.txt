@@ -1,0 +1,68 @@
+Unit Testing and OOP 
+
+State- what makes object unique (what is this information within the object)
+
+Instance level variables - 
+class level variables - 
+
+Methods - Behavior or action to interact with data(inst/class variables).
+	Way to organize code.
+	
+class Cat(object)
+	def__init__(self, ) 
+	
+	## every method must start with -(self, )
+
+Dunder = double underscore aka __init__ 
+
+self is a reference to the instance.  
+ self.name =  name 
+ 
+
+
+Import cat 
+
+cat.cat()
+
+>> takes 4 variables 
+
+	c = cat.Cat('Ruffles', 'Green', 'English')
+	
+	c.name
+	
+Functional testing- going through a workflow
+
+integration testing- 
+
+Unit testing- testing small code blocks 
+
+Package- unittest
+	testcase 
+	testsuite(s) groups of test cases. 
+	test runners - run test cases and suites
+Test cases are classes. 
+	
+	
+locals()- spits out local namespace. 
+
+python assert function (almost accept... )
+
+Python3- can print a function. 
+
+To turn something into from a module to a package- put in __init__.py
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
