@@ -3,7 +3,7 @@ Silhouette Coefficient
 
 http://scikit-learn.org/stable/modules/clustering.html#clustering
 
-2.3.9.4. Silhouette Coefficient 
+2.3.9.4. 
 
 """
 
