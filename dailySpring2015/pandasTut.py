@@ -21,6 +21,12 @@ Sorted.head(1)
 
 df['Births'].max()
 
+df['Births'].plot()
+
+MaxValue = df['Births'].max()
+MaxName = df['Names'][df['Births'] == df['Births'].max()].values
+
+Text = str(MaxValue) + " - " + MaxName
 
 
 

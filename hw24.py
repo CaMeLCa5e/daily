@@ -31,8 +31,14 @@ int1 = int(int1)
 int2 = int(int2)
 
 print '{0} / {1} = '.format(int1, int2) + str(float(int1)/int2)
-#This works but I am unhappy with the last line. I think there is a 
-# better way to  add the two data types.
+
+
+
+
+
+
+
+
 
 
 
