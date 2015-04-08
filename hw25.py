@@ -44,17 +44,24 @@ if not year.isdigit():
 for line in open('famaFrench.txt'):
     line = line.rstrip()
     line_words = line.split()
-	elements = line.split(' ')
-	# print elements[4]
 
+    # get the correct part of the data to be processed
+	formatted = "2015-03-01:238:19:908:example.com:598308"
+	elements = formatted.split(':')
+	print elements[4]
+
+	# get the correct year of the data
     line_year = line[0:4]
     if line_year == year:
 	    count += 1
 
+	# sum - add the data together
 
+	
 if line_year == 0:
 	print 'no results were found for that year'
 
+# average the sum and return as dec. 
 average = sumOfFama / float(count)
 
 
