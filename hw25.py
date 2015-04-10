@@ -55,6 +55,18 @@ for line in open('famaFrench.txt'):
     if line_year == year:
 	    count += 1
 
+
+# nest this part 
+	for line in line_year:
+	    line_year = line[0:4]
+	    if line_year == year:
+		    count += 1
+
+
+
+
+
+
 	# sum - add the data together
 
 	
@@ -67,7 +79,7 @@ average = sumOfFama / float(count)
 
 # format = count 301, sum 26.26, avg 0.0872425249169
 print 'count {0}, sum {1}, avg {2}'.format(count, sumOfFama, average)
-
+print 'count %s, sum %d, avg %d' % (count, sumOfFama, average)
 
 # print count
 	# if line_year == 0:
