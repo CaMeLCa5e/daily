@@ -6,7 +6,6 @@ Reject the input with a polite message if it is not all digits.
 
 Looping through the Fama-French_data.txt file, calculate the average MktRF value for that year.
 
-
 program runs with expected output:
 
 $ python 2-25.py
@@ -44,47 +43,32 @@ if not year.isdigit():
 for line in open('famaFrench.txt'):
     line = line.rstrip()
     line_words = line.split()
-
-    # get the correct part of the data to be processed
-	formatted = "2015-03-01:238:19:908:example.com:598308"
-	elements = formatted.split(':')
-	print elements[4]
-
-	# get the correct year of the data
-    line_year = line[0:4]
-    if line_year == year:
-	    count += 1
+print line_words
 
 
-# nest this part 
-	for line in line_year:
-	    line_year = line[0:4]
-	    if line_year == year:
-		    count += 1
+line_year = line [1:4]
+print line[0:4]
+line_year = line[0:4]
+
+for line in line_year:
+	if line_year == year:
+		count += 1
+
+# print line
 
 
-
-
-
-
-	# sum - add the data together
-
+# sum - add the data together
 	
-if line_year == 0:
-	print 'no results were found for that year'
+# # average the sum and return as dec. 
+# average = sumOfFama / float(count)
 
-# average the sum and return as dec. 
-average = sumOfFama / float(count)
-
-
-# format = count 301, sum 26.26, avg 0.0872425249169
-print 'count {0}, sum {1}, avg {2}'.format(count, sumOfFama, average)
+# # format = count 301, sum 26.26, avg 0.0872425249169
+# print 'count {0}, sum {1}, avg {2}'.format(count, sumOfFama, average)
 print 'count %s, sum %d, avg %d' % (count, sumOfFama, average)
 
-# print count
-	# if line_year == 0:
-		# print 'no results found for requested year'
-
+print count
+if count == 0:
+	print 'no results found for requested year'
 
 # for line in contact_list:
 #  	line = line.rstrip()

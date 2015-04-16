@@ -53,7 +53,85 @@ membership lookups
 
 
 intlist.append('hello')
-print intlist
+# print intlist
+
+
+# sets dont have an order so you need to use add instead of append. 
+
+# .update() adds dics together. 
+
+userId, name, lname, city, sate = line.split()
+
+# splits by value in column
+
+# .dir(int) .dir(str) .dir(set) ...
+
+for line in open('students.txt'):
+	userId, name = line.split
+	ids_ name[userId] = filename
+
+# fama order mkt_rf
+
+
+days[year] = days[year] + mktrf 
+
+
+myset = set(['a', 'b', 'c'])
+
+if 'c' in myset:
+	print "c is in myse"
+
+years[year] = years[years] + mktrf
+# will not work  
+
+# use this 
+
+if 'zzz' in mydict:
+	print mydict['zzz']
+else: 
+	print 'key not found'
+
+years.get('1927', 0)
+years['1927']
+
+
+try:
+	print years['1928']
+except KeyError:
+	print "not found"
+	days[year] = days[year] + mktrf 
+
+
+sum()
+len()
+max()
+min()
+
+average = sum(mylist)/len(mylist)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
