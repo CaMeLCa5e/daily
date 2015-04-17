@@ -43,19 +43,21 @@ if not year.isdigit():
 for line in open('famaFrench.txt'):
     line = line.rstrip()
     line_words = line.split()
-print line_words
-
-
-line_year = line [1:4]
-print line[0:4]
-line_year = line[0:4]
+    line_year = line[0:4]
+    if line_year == year: 
+    	count += 1
+    	print line_year
+    	print line.split()[1:2]
+    	MktRF = line.split()[1:2]
+    # print line [0:4]
+	print MktRF
+# print line_words
 
 for line in line_year:
 	if line_year == year:
 		count += 1
-
+		print count 
 # print line
-
 
 # sum - add the data together
 	
@@ -64,7 +66,7 @@ for line in line_year:
 
 # # format = count 301, sum 26.26, avg 0.0872425249169
 # print 'count {0}, sum {1}, avg {2}'.format(count, sumOfFama, average)
-print 'count %s, sum %d, avg %d' % (count, sumOfFama, average)
+# print 'count %s, sum %d, avg %d' % (count, sumOfFama, average)
 
 print count
 if count == 0:
