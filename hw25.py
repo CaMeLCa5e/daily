@@ -32,6 +32,7 @@ count 286, sum 32.55, avg 0.113811188811
 filename = "famaFrench.txt"
 count = 0
 sumOfFama = 0
+total_line_mktrf = []
 
 # Use raw_input() to take user input - a 4-digit year. 
 year = raw_input('Please enter a 4-digit year: ')
@@ -44,19 +45,25 @@ for line in open('famaFrench.txt'):
     line = line.rstrip()
     line_words = line.split()
     line_year = line[0:4]
+
     if line_year == year: 
     	count += 1
     	print line_year
-    	print line.split()[1:2]
+
     	MktRF = line.split()[1:2]
-    # print line [0:4]
-	print MktRF
+    	line_mktrf = MktRF
+    	print line_mktrf
+
+    	total_line_mktrf = total_line_mktrf.append(int(line_mktrf))
+    	print total_line_mktrf
+
 # print line_words
 
 for line in line_year:
 	if line_year == year:
 		count += 1
 		print count 
+
 # print line
 
 # sum - add the data together
@@ -68,7 +75,7 @@ for line in line_year:
 # print 'count {0}, sum {1}, avg {2}'.format(count, sumOfFama, average)
 # print 'count %s, sum %d, avg %d' % (count, sumOfFama, average)
 
-print count
+# print count
 if count == 0:
 	print 'no results found for requested year'
 
