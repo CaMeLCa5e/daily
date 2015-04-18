@@ -51,13 +51,16 @@ for line in open('famaFrench.txt'):
     	print line_year
 
     	MktRF = line.split()[1:2]
-    	line_mktrf = MktRF
+    	# line_mktrf = MktRF
     	print line_mktrf
 
-    	total_line_mktrf = total_line_mktrf.append(int(line_mktrf))
-    	print total_line_mktrf
+total_line_mktrf.append(line_mktrf)
 
-# print line_words
+    	# total_line_mktrf = total_line_mktrf.rstrip()
+    	# total_line_mktrf = total_line_mktrf.split()
+
+    	# print sum(total_line_mktrf)
+print total_line_mktrf
 
 for line in line_year:
 	if line_year == year:
