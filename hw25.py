@@ -51,8 +51,10 @@ for line in open('famaFrench.txt'):
     	print line_year
 
     	MktRF = line.split()[1:2]
-    	# line_mktrf = MktRF
+    	line_mktrf = MktRF
     	print line_mktrf
+    	total_line_mktrf = 
+    	average_mktrf = print sum(total_line_mktrf)
 
 total_line_mktrf.append(line_mktrf)
 
